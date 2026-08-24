@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
 
-<title>
-Lonk
-</title>
 
-<head> WELCOME TO LONK WORLD
-<link rel="icon" type="image/x-icon" href="misc/favicon.ico">
-<style>
+<head>
+
+
+    <title> e-claire.zone </title>
+	<link rel="icon" type="image/x-icon" href="misc/favicon.ico">
+	
+	<style>
     a {
         <!-- color: white;
         text-decoration: none; -->
@@ -25,50 +26,60 @@ Lonk
 		font-style: italic;
 	}
 </style>
-</head> <br>
+</head>
 
-<img src="gif/rainbow.gif"> 
 
-<Body style="background-color: black; color: white;">
+		<img src="gif/rainbow.gif">
+		
+		
+<body style="background-color: black; color: white;">
 
-<h1> IMPORTANT LONKS </h1>
 
-<ul>
 
-	<li>
-		<a href="https://www.youtube.com/watch?v=bek9Wvrlidk" target="_blank" id="link3"> INCREDIBLE LONK </a> 
-	</li>
-	
-	<li>
-		<a href="https://www.youtube.com/watch?v=uJssVmDsq0A"  target="_blank" id="link2"> THE MOST IMPORTANT LONK YOU WILL EVER SEE </a> 
-	</li>
+    <h1>WELCOME TO e-CLAIRE.ZONE</h1>
 
-	<li>
-		<a href="https://f3wafwa4gw4gw.ytmnd.com"  target="_blank" id="link1"> YET ANOTHER LONK </a>
-	</li>
-	
-	<li>
-		<a href="https://maze95.js.org"  target="_blank" id="link4"> THE LONK YOU'VE BEEN WAITING FOR </a>
-	</li>
-</ul>
 
-<img src="gif/rainbow.gif"><br>
 
-	<img src="gif/gundam.gif">
+<span> Please enjoy this important lonk: </span> <br>
+
+<a href="https://www.youtube.com/watch?v=m_kxpTmtiRs" target="_blank" id="link1"> Important Lonk </a>
+<br>
+
+
+		<img src="gif/rainbow.gif"> <br>
+
+
+<br>
 
 <p>
-
-	<a href="home.html" > <b><i>RETURN TO THE ZONE </i></b></a>
-	
+	<a href="lonks.html" id="link2" 
+	onclick="event.preventDefault(); setTimeout(() => location.href = this.href, 700);"> <b> See EVEN MORE Important Lonks Here </b> </a> 
 </p>
 
-<img src="gif/rainbow.gif">
 
-<audio src="audio/creedolb.mp3" type="audio/mpeg" autoplay></audio>
+<br>
+<p> 
+	<a href="video.html" id="link3" 
+	onclick="event.preventDefault(); setTimeout(() => location.href = this.href, 700);"> <b> COOL VIDEOS HERE </b> </a> </p>
 
 
 
+		<img src="gif/rainbow.gif"> 
 
+
+
+<p><a href="about.html"><small>ABOOT</a> sour humble little website</small></p>
+
+
+
+<p>
+	<button style="background-color:Tomato; font-size: 50%;"  
+	onclick="fart(); alert('fuck you')">Click Me</button>
+</p>
+		
+		
+		
+		
 <script>
 	const fartSound = new Audio("audio/fart.mp3");
 	const rl1 = new Audio("audio/rl1.mp3");
@@ -84,7 +95,6 @@ Lonk
 	const link1 = document.getElementById("link1");
 	const link2 = document.getElementById("link2");
 	const link3 = document.getElementById("link3");
-	const link4 = document.getElementById("link4");
 	link1.addEventListener("mouseenter", () => {
 		rl1.play();
 	});
@@ -93,10 +103,6 @@ Lonk
 	});
 	link3.addEventListener("mouseenter", () => {
 		rl3.play();
-	});
-	
-	link4.addEventListener("mouseenter", () => {
-		rl2.play();
 	});
 	
 	link1.addEventListener("click", () => {
@@ -114,13 +120,9 @@ Lonk
 		gs3.play();
 	});
 	
-	link4.addEventListener("click", () => {
-		gs2.currentTime = 0;
-		gs2.play();
-	});
-	
-	
 </script>
 
-</body>  
-</html>
+
+
+
+</body>

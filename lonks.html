@@ -36,20 +36,22 @@ Lonk
 <ul>
 
 	<li>
-		<a href="https://www.youtube.com/watch?v=bek9Wvrlidk" target="_blank" id="link3"> INCREDIBLE LONK </a> 
+		<a href="https://www.youtube.com/watch?v=bek9Wvrlidk" target="_blank" class="rl1Hover gs1Click"> INCREDIBLE LONK </a> 
 	</li>
 	
 	<li>
-		<a href="https://www.youtube.com/watch?v=uJssVmDsq0A"  target="_blank" id="link2"> THE MOST IMPORTANT LONK YOU WILL EVER SEE </a> 
+		<a href="https://www.youtube.com/watch?v=uJssVmDsq0A"  target="_blank" class="rl2Hover gs2Click"> THE MOST IMPORTANT LONK YOU WILL EVER SEE </a> 
 	</li>
 
 	<li>
-		<a href="https://f3wafwa4gw4gw.ytmnd.com"  target="_blank" id="link1"> YET ANOTHER LONK </a>
+		<a href="https://f3wafwa4gw4gw.ytmnd.com"  target="_blank" class="rl3Hover gs3Click"> YET ANOTHER LONK </a>
 	</li>
 	
 	<li>
-		<a href="https://maze95.js.org"  target="_blank" id="link4"> THE LONK YOU'VE BEEN WAITING FOR </a>
+		<a href="https://maze95.js.org"  target="_blank" class="rl2Hover lasClick"> THE LONK YOU'VE BEEN WAITING FOR </a>
 	</li>
+	
+	<br><br>
 </ul>
 
 <img src="gif/rainbow.gif"><br>
@@ -58,69 +60,16 @@ Lonk
 
 <p>
 
-	<a href="home.html" > <b><i>RETURN TO THE ZONE </i></b></a>
+	<a href="home.html" class="rl3Hover lasClick delay"> <b><i>RETURN TO THE ZONE </i></b></a>
 	
 </p>
 
 <img src="gif/rainbow.gif">
 
-<audio src="audio/creedolb.mp3" type="audio/mpeg" autoplay></audio>
+<audio src="audio/creedolb.mp3" type="audio/mpeg" autoplay loop></audio>
 
 
-
-
-<script>
-	const fartSound = new Audio("audio/fart.mp3");
-	const rl1 = new Audio("audio/rl1.mp3");
-	const rl2 = new Audio("audio/rl2.mp3");
-	const rl3 = new Audio("audio/rl3.mp3");
-	const gs1 = new Audio("audio/shot1.mp3");
-	const gs2 = new Audio("audio/shot2.mp3");
-	const gs3 = new Audio("audio/shot3.mp3");
-	function fart(){
-		fartSound.currentTime = 0;
-		fartSound.play();
-	}
-	const link1 = document.getElementById("link1");
-	const link2 = document.getElementById("link2");
-	const link3 = document.getElementById("link3");
-	const link4 = document.getElementById("link4");
-	link1.addEventListener("mouseenter", () => {
-		rl1.play();
-	});
-	link2.addEventListener("mouseenter", () => {
-		rl2.play();
-	});
-	link3.addEventListener("mouseenter", () => {
-		rl3.play();
-	});
-	
-	link4.addEventListener("mouseenter", () => {
-		rl2.play();
-	});
-	
-	link1.addEventListener("click", () => {
-		gs1.currentTime = 0;
-		gs1.play();
-	});
-	
-	link2.addEventListener("click", () => {
-		gs2.currentTime = 0;
-		gs2.play();
-	});
-	
-	link3.addEventListener("click", () => {
-		gs3.currentTime = 0;
-		gs3.play();
-	});
-	
-	link4.addEventListener("click", () => {
-		gs2.currentTime = 0;
-		gs2.play();
-	});
-	
-	
-</script>
+<script src="js/lonkSounds.js"></script>
 
 </body>  
 </html>

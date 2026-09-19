@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <html>
-
-
 <head>
-
-
-    <title> e-claire.zone </title>
+		<title> e-claire.zone </title>
+	
 	<link rel="icon" type="image/x-icon" href="misc/favicon.ico">
 	
-	<style>
+<style>
     a {
         <!-- color: white;
         text-decoration: none; -->
@@ -26,103 +23,61 @@
 		font-style: italic;
 	}
 </style>
+
 </head>
 
 
-		<img src="gif/rainbow.gif">
+	<img src="gif/rainbow.gif">
 		
 		
 <body style="background-color: black; color: white;">
 
 
-
-    <h1>WELCOME TO e-CLAIRE.ZONE</h1>
-
+    <h1>WELCOME TO <img src="gif/logo_e.gif" style="width: 50x; height: 50px;">-CLAIRE.ZONE</h1>
 
 
-<span> Please enjoy this important lonk: </span> <br>
+	<a href="announce.html" class="lasHover gs1Click delay">  ANNONCMANTS NEWS HERE </a><br><br>
+		<span> Please enjoy this important lonk: </span> <br>
 
-<a href="https://www.youtube.com/watch?v=m_kxpTmtiRs" target="_blank" id="link1"> Important Lonk </a>
+		<a href="https://www.youtube.com/watch?v=m_kxpTmtiRs" target="_blank" class="rl1Hover gs1Click"> WOOOOW </a>
+		
 <br>
-
-
 		<img src="gif/rainbow.gif"> <br>
-
-
 <br>
 
 <p>
-	<a href="lonks.html" id="link2" 
-	onclick="event.preventDefault(); setTimeout(() => location.href = this.href, 700);"> <b> See EVEN MORE Important Lonks Here </b> </a> 
+	<a href="lonks.html" class="rl2Hover gs2Click delay"> <b> See EVEN MORE Important Lonks Here </b> </a> 
 </p>
 
 
 <br>
 <p> 
-	<a href="video.html" id="link3" 
-	onclick="event.preventDefault(); setTimeout(() => location.href = this.href, 700);"> <b> COOL VIDEOS HERE </b> </a> </p>
+	<a href="video.html" class="rl3Hover gs3Click delay"> <b> COOL VIDEOS HERE </b> </a> </p>
+	
+<br>
 
-
+<p> 
+	<a href="games.html" class="lasHover lasClick delay"><b>BEWARE the gaymer zone!! ☠︎🕸️๋࣭ ⭑🦇 ݁ ˖ִ ࣪</b></a> 
+</p>
 
 		<img src="gif/rainbow.gif"> 
 
-
-
-<p><a href="about.html"><small>ABOOT</a> sour humble little website</small></p>
-
-
+<p><a href="about.html" class="delay"><small>ABOOT</a> sour humble little website</small></p>
 
 <p>
 	<button style="background-color:Tomato; font-size: 50%;"  
 	onclick="fart(); alert('fuck you')">Click Me</button>
-</p>
-		
-		
-		
+</p>		
 		
 <script>
 	const fartSound = new Audio("audio/fart.mp3");
-	const rl1 = new Audio("audio/rl1.mp3");
-	const rl2 = new Audio("audio/rl2.mp3");
-	const rl3 = new Audio("audio/rl3.mp3");
-	const gs1 = new Audio("audio/shot1.mp3");
-	const gs2 = new Audio("audio/shot2.mp3");
-	const gs3 = new Audio("audio/shot3.mp3");
 	function fart(){
 		fartSound.currentTime = 0;
 		fartSound.play();
 	}
-	const link1 = document.getElementById("link1");
-	const link2 = document.getElementById("link2");
-	const link3 = document.getElementById("link3");
-	link1.addEventListener("mouseenter", () => {
-		rl1.play();
-	});
-	link2.addEventListener("mouseenter", () => {
-		rl2.play();
-	});
-	link3.addEventListener("mouseenter", () => {
-		rl3.play();
-	});
-	
-	link1.addEventListener("click", () => {
-		gs1.currentTime = 0;
-		gs1.play();
-	});
-	
-	link2.addEventListener("click", () => {
-		gs2.currentTime = 0;
-		gs2.play();
-	});
-	
-	link3.addEventListener("click", () => {
-		gs3.currentTime = 0;
-		gs3.play();
-	});
-	
 </script>
 
-
-
+<script src="js/lonkSounds.js"></script>
 
 </body>
+</html>
